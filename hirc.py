@@ -21,7 +21,7 @@ import subprocess
 # the way this program pulls info if the channel is using the client_id
 # giving access to some JSON info obtained through authorization
 
-"""To run python hirc.py <channel name> <time between messages in minutes> <times to repeat (-1 is unlimited)>
+"""To run python3 hirc.py <channel name> <time between messages in minutes> <times to repeat (-1 is unlimited)>
    ON LINUX: To run in background add nohup before python and add & after times to repeat
    To end the process if running with -1 sys.argv use pgrep -a python
    then kill or pkill the process id"""
