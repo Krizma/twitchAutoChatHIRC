@@ -1,0 +1,59 @@
+amzirk: connected to gmohn  Enter to continue.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "hirc.py", line 41, in worker
+    last_message = input()
+OSError: [Errno 9] Bad file descriptor
+
+********************************************************
+>> amzirk: The more things change, the more they stay the same. Boundaries shift, new players step in, but power always finds a place to rest its head. 
+
+>> amzirk: /mods
+Traceback (most recent call last):
+  File "hirc.py", line 158, in <module>
+    get_status()  # left over code
+  File "hirc.py", line 135, in get_status
+    bot_messages()
+  File "hirc.py", line 83, in bot_messages
+    timeTemp = helper_messages(timeTemp) 
+  File "hirc.py", line 104, in helper_messages
+    time.sleep(600)
+KeyboardInterrupt
+amzirk: connected to gmohn  Enter to continue.
+amzirk: connected to gmohn  Enter to continue.
+amzirk: connected to gmohn  Enter to continue.
+hirc.py chat_channel
+python hirc.py <channel> <message timing> <messages to be sent (-1=unlimited)>
+amzirk: connected to gmohn  Enter to continue.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "hirc.py", line 41, in worker
+    last_message = input()
+OSError: [Errno 9] Bad file descriptor
+
+********************************************************
+>> amzirk: gmohnCreep
+
+>> amzirk: /mods
+Traceback (most recent call last):
+  File "hirc.py", line 158, in <module>
+    get_status()  # left over code
+  File "hirc.py", line 135, in get_status
+    bot_messages()
+  File "hirc.py", line 83, in bot_messages
+    timeTemp = helper_messages(timeTemp) 
+  File "hirc.py", line 104, in helper_messages
+    time.sleep(600)
+KeyboardInterrupt
+amzirk: connected to gmohn  Enter to continue.
+amzirk: connected to gmohn  Enter to continue.
+amzirk: connected to gmohn  Enter to continue.
+amzirk: connected to gmohn  Enter to continue.
